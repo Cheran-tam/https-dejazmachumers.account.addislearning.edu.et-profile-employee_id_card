@@ -1,0 +1,140 @@
+<link rel="stylesheet" href="https://dejazmachumers.account.addislearning.edu.et/assets/bootstrap-new/css/main.min.css" />
+<link rel="stylesheet" href="https://dejazmachumers.lms.addislearning.edu.et/materials_v2/admin/css/programsModuleCommon.css" />
+<style>
+    #profile-header-adjustement{
+        min-width: 60px;
+        min-height: 60px;
+        background-color: #2A3950;
+        border-radius: 50%;
+        position: relative;
+        margin-left: 20px;
+    }
+    #profile-header-firstletter{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 28px;
+        color: #fff;
+    }
+    .user-widget img{
+        min-width: 60px;
+        min-height: 60px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-left: 20px;
+    }
+    .max-width-1000px{
+        max-width: 1000px;
+    }
+    .min-width-40{
+        width: 40% !important;
+    }
+    .table-striped>tbody>tr:nth-of-type(odd).bg-white>*{
+        background-color: #fff !important;
+    }
+    .water-mark {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        opacity: 0.1;
+        pointer-events: none;
+        font-size: 40px;
+        width: 100vw;
+        max-width: 1000px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .max-width-400px{
+        max-width: 400px;
+    }
+    .w-35{
+        width: 35%;
+    }
+    .verified-employee-profile{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<script>
+    var __site_asset_url = 'https://dejazmachumers.lms.addislearning.edu.et/materials_v2/';
+</script>
+    <div class="card ">
+        <div class="profileInfoTable w-100 d-flex flex-column gap-3 align-items-center max-width-1000px mx-auto postion-relative" style="height:100vh">
+            <div class="water-mark" >CITY GOVERNMENT OF ADDIS ABABA EDUCATION BUREAU</div>
+            <div class="max-width-450px mt-5" >
+                <!-- <img class="img-fluid" src="https://uat.ekhool.com/v2/assets/images/trusted-firms/gradu-data-with-ekhool.png" alt=""> -->
+                <img class="img-fluid" src="https://dejazmachumers.lms.addislearning.edu.et/api/tenant/v1/image?action=logo" alt="">
+            </div>
+            <h2 class="text-center" >Dejazmach umer semeter secondary school</h2>
+            <table class="bg-body-secondary table table-striped mb-0 border z-1">
+                                                    <tr>
+                                                       <td class="w-35 px-4 py-3">
+                                    <p class="profileTableTitle mb-0 fw-bold">First name </p>
+                                </td>
+                                <td class="w-35" >
+                                    <!-- <span class="me-3">:</span> < ?= isset($user_detail[$key]) ? $user_detail[$key] : '--'; ?></td> -->
+                                     <span class="me-3">:</span>
+                                        CHERINET                                        </td>
+                                                                                                        <td class="bg-white position-relative" rowspan="4">
+                                        <div class="d-flex flex-column gap-2 bg-white px-4 h-100 verified-employee-profile">
+                                                                                         <!-- if (urlExists($image_path)) {
+                                            ?>
+                                                <img class="object-fit-contain" src="< ?php echo $image_path; ?>" alt="User Image" />
+                                            < ?php
+                                            } else {
+                                            ?>
+                                                <div id="profile-header-adjustement">
+                                                    <span id="profile-header-firstletter" class="rounded">
+
+< ?php
+                                                        if (strlen($user_detail["us_name"]) > 0) {
+                                                            $firstLetter = substr($user_detail["us_name"], 0, 1);
+                                                            echo $firstLetter;
+                                                        }
+                                                        ?>
+                                                    </span>
+                                                </div>
+                                            < ?php
+                                            }
+                                            ?> -->
+                                            <img class="object-fit-contain" src="https://delicate-leaf-266.linkyhost.com" alt="User Image"
+                                                onerror="this.onerror=null; this.src = __site_asset_url + 'assets/images/default/user/default.jpg';" />
+                                            <h3 class="text-center" >Verified Employee</h3>
+                                        </div>
+                                    </td>
+                                                        </tr>                    <tr>
+                                                       <td class="w-35 px-4 py-3">
+                                    <p class="profileTableTitle mb-0 fw-bold">Middle name </p>
+                                </td>
+                                <td class="w-35" >
+                                    <!-- <span class="me-3">:</span> < ?= isset($user_detail[$key]) ? $user_detail[$key] : '--'; ?></td> -->
+                                     <span class="me-3">:</span>
+                                        TAMIRAT                                        </td>
+                                                                                                </tr>                    <tr>
+                                                       <td class="w-35 px-4 py-3">
+                                    <p class="profileTableTitle mb-0 fw-bold">Last name </p>
+                                </td>
+                                <td class="w-35" >
+                                    <!-- <span class="me-3">:</span> < ?= isset($user_detail[$key]) ? $user_detail[$key] : '--'; ?></td> -->
+                                     <span class="me-3">:</span>
+                                        ABA                                        </td>
+                                                                                                </tr>                    <tr>
+                                                       <td class="w-35 px-4 py-3">
+                                    <p class="profileTableTitle mb-0 fw-bold">Department </p>
+                                </td>
+                                <td class="w-35" >
+                                    <!-- <span class="me-3">:</span> < ?= isset($user_detail[$key]) ? $user_detail[$key] : '--'; ?></td> -->
+                                     <span class="me-3">:</span>
+                                        Career and technical Education                                        </td>
+                                                                                                </tr>            </table>
+    </div>
+    <script>
+        var data = {"us_first_name":"First name","us_middle_name":"Middle name","us_last_name":"Last name","dpt_title":"Department"}
+    </script><script src="https://dejazmachumers.account.addislearning.edu.et/assets/bootstrap-new/js/bootstrap.bundle.min.js"></script>
